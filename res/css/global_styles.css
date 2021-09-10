@@ -1,0 +1,56 @@
+/*
+NAVBAR FIX
+*/
+.navbar{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-height: 64px;
+  border-bottom: 1px solid white;
+}
+.navbar-brand{
+  align-items: center;
+  display: flex;
+}
+
+/*
+STRUCTURE
+*/
+.nav-correction-padding{margin-top: 86px;}
+
+
+/*
+BOXES AND PANELS
+*/
+.index-canvas{
+  min-height: 100px;
+}
+
+/*
+FONTS
+*/
+.choice-font-navbar{
+  display: inline;
+  font-family: 'arial';
+  font-size: 24px;
+  color: white;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+/*
+IMAGES
+*/
+.choice-nav-img{
+  display: inline;
+  height: 50px;
+  width: 100px;
+  margin-top: 10px; margin-bottom: 10px;
+  margin-left: 20px; margin-right: 10px;
+}
+.choice-logo-img{
+  height: 240px;
+  width: 240px;
+}
