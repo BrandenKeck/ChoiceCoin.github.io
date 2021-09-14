@@ -4,9 +4,7 @@ populate_github_data = function() {
     type: "GET",
     url: "https://api.github.com/users/ChoiceCoin/repos",
     success: function(response) {
-      console.log(response);
       for(var i=0; i<response.length; i++){
-
         if(response[i].name == "Choice-V1"){
           $("#choice-v1-description").text(response[i].description);
           $("#choice-v1-language").text(response[i].language);

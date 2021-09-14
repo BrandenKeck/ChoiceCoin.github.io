@@ -12,13 +12,14 @@
   </head>
 
   <!-- Create Body -->
-  <body>
+  <body class="animate__animated animate__fadeIn">
 
     <!-- Navbar Structure -->
-    <nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
-          <img class="choice-nav-img" src="res/img/logo/choice_nav.png" />
+          <img class="choice-nav-img" src="res/img/logo/choice_nav_official.png" />
+          <p class="choice-nav-text text-inline">Choice Coin</p>
         </a>
         <div>
           <a href="index.html" class="nav-item btn btn-outline-light me-1">Home</a>
@@ -43,7 +44,7 @@
             <!-- Choice Logo Column -->
             <div class="col-4">
               <div class="d-flex justify-content-center align-items-center h-100">
-                <img class="choice-logo-img" src="res/img/logo/logo_whitetext.png" />
+                <img class="choice-logo-img animate__animated animate__bounce animate__slow" src="res/img/logo/logo_whitetext.png" />
               </div>
             </div>
 
@@ -64,10 +65,16 @@
           <div class="row">
             <div class="d-flex justify-content-center">
               <a href="https://fortiorblockchain.com/" class="btn btn-primary me-3">
-                  <i class="fas fa-network-wired"></i> &nbsp; Learn About Fortior
+                <span>
+                  <i class="fas fa-network-wired choice-btn-icon"></i> &nbsp;
+                  <p class="choice-font-btn-text text-inline">Learn About Fortior</p>
+                </span>
               </a>
               <a href="https://github.com/ChoiceCoin/White_Paper" class="btn btn-primary me-3">
-                  <i class="fas fa-file-alt"></i> &nbsp; Choice Coin White Paper
+                <span>
+                  <i class="fas fa-file-alt choice-btn-icon"></i> &nbsp;
+                  <p class="choice-font-btn-text text-inline">Choice Coin White Paper</p>
+                </span>
               </a>
             </div>
           </div>
@@ -101,7 +108,10 @@
           <div class="row">
             <div class="d-flex justify-content-left">
               <a href="team.html" class="btn btn-primary me-3">
-                  <i class="fas fa-users"></i> &nbsp; Meet The Team
+                <span>
+                  <i class="fas fa-users choice-btn-icon"></i> &nbsp;
+                  <p class="choice-font-btn-text text-inline">Meet The Team</p>
+                </span>
               </a>
             </div>
           </div>
@@ -124,11 +134,11 @@
       <!-- Section Content -->
         <div class="row">
           <div class="row">
-            <div class="col-4">
+            <div class="col-12 col-lg-4 side-padding tiny-break-padding margin-col">
               <div class="d-flex justify-content-center">
                 <img class="choice-icon-img" src="res/img/icon/vote.png" />
               </div>
-              <div class="d-flex justify-content-center">
+              <div class="d-flex justify-content-center tiny-break-padding">
                 <p class="choice-font-header-text">Decentralized Voting</p>
               </div>
               <div class="d-flex justify-content-center">
@@ -137,11 +147,11 @@
                 </p>
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-lg-4 side-padding tiny-break-padding margin-col">
               <div class="d-flex justify-content-center">
                 <img class="choice-icon-img" src="res/img/icon/validate.png" />
               </div>
-              <div class="d-flex justify-content-center">
+              <div class="d-flex justify-content-center tiny-break-padding">
                 <p class="choice-font-header-text">Participatory Validation</p>
               </div>
               <div class="d-flex justify-content-center">
@@ -151,11 +161,11 @@
                 </p>
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-lg-4 side-padding tiny-break-padding margin-col">
               <div class="d-flex justify-content-center">
                 <img class="choice-icon-img" src="res/img/icon/develop.png" />
               </div>
-              <div class="d-flex justify-content-center">
+              <div class="d-flex justify-content-center tiny-break-padding">
                 <p class="choice-font-header-text">Open Development</p>
               </div>
               <div class="d-flex justify-content-center">
@@ -166,10 +176,13 @@
               </div>
             </div>
           </div>
-          <div class="row">
+          <div class="row top-pad-fix margin-col">
             <div class="d-flex justify-content-left">
               <a href="documentation.html" class="btn btn-primary me-3">
-                  <i class="fas fa-book-open"></i> &nbsp; Read More
+                <span>
+                  <i class="fas fa-book-open choice-btn-icon"></i> &nbsp;
+                  <p class="choice-font-btn-text text-inline">Read More</p>
+                </span>
               </a>
             </div>
           </div>
@@ -207,12 +220,12 @@
             <div class="col-12">
 
               <!-- Git Projects Row 1 -->
-              <div class="row tiny-break-padding">
-                <div class="col-6">
+              <div class="row">
+                <div class="col-12 col-lg-6 tiny-break-padding">
                   <div class="git-summary-box">
                     <div class="d-flex tiny-break-padding justify-content-left align-items-center">
                       <i class="fas fa-lg fa-book"></i> &nbsp;
-                      <p class="repo-link-text">ChoiceCoin/Choice-V1</p>
+                      <p class="choice-font-repo-link-text">Choice-V1</p>
                     </div>
                     <div class="d-flex tiny-break-padding justify-content-left">
                       <p id="choice-v1-description" class="choice-font-normal-text no-padding"><!-- Populated by Javascript --></p>
@@ -233,16 +246,19 @@
                     </div>
                     <div class="d-flex justify-content-left tiny-break-padding">
                       <a href="https://github.com/ChoiceCoin/Choice-V1" class="btn btn-primary me-3">
-                          View Project &nbsp; <i class="fas fa-arrow-circle-right"></i>
+                        <span>
+                          <p class="choice-font-btn-text-small text-inline">View Project &nbsp;</p>
+                          <i class="fas fa-arrow-circle-right choice-btn-icon-small"></i>
+                        </span>
                       </a>
                     </div>
                   </div>
                 </div>
-                <div class="col-6">
+                <div class="col-12 col-lg-6 tiny-break-padding">
                   <div class="git-summary-box">
                     <div class="d-flex tiny-break-padding justify-content-left align-items-center">
                       <i class="fas fa-lg fa-book"></i> &nbsp;
-                      <p class="repo-link-text">ChoiceCoin/Smart_Contracts</p>
+                      <p class="choice-font-repo-link-text">Smart_Contracts</p>
                     </div>
                     <div class="d-flex tiny-break-padding justify-content-left">
                       <p id="smart-contracts-description" class="choice-font-normal-text no-padding"><!-- Populated by Javascript --></p>
@@ -263,7 +279,10 @@
                     </div>
                     <div class="d-flex justify-content-left tiny-break-padding">
                       <a href="https://github.com/ChoiceCoin/Smart_Contracts" class="btn btn-primary me-3">
-                          View Project &nbsp; <i class="fas fa-arrow-circle-right"></i>
+                        <span>
+                          <p class="choice-font-btn-text-small text-inline">View Project &nbsp;</p>
+                          <i class="fas fa-arrow-circle-right choice-btn-icon-small"></i>
+                        </span>
                       </a>
                     </div>
                   </div>
@@ -271,12 +290,12 @@
               </div>
 
               <!-- Git Projects Row 2 -->
-              <div class="row tiny-break-padding">
-                <div class="col-6">
+              <div class="row">
+                <div class="col-12 col-lg-6 tiny-break-padding">
                   <div class="git-summary-box">
                     <div class="d-flex tiny-break-padding justify-content-left align-items-center">
                       <i class="fas fa-lg fa-book"></i> &nbsp;
-                      <p class="repo-link-text">ChoiceCoin/Voting</p>
+                      <p class="choice-font-repo-link-text">Voting</p>
                     </div>
                     <div class="d-flex tiny-break-padding justify-content-left">
                       <p id="voting-description" class="choice-font-normal-text no-padding"><!-- Populated by Javascript --></p>
@@ -297,16 +316,19 @@
                     </div>
                     <div class="d-flex justify-content-left tiny-break-padding">
                       <a href="participate.html" class="btn btn-primary me-3">
-                          View Project &nbsp; <i class="fas fa-arrow-circle-right"></i>
+                        <span>
+                          <p class="choice-font-btn-text-small text-inline">View Project &nbsp;</p>
+                          <i class="fas fa-arrow-circle-right choice-btn-icon-small"></i>
+                        </span>
                       </a>
                     </div>
                   </div>
                 </div>
-                <div class="col-6">
+                <div class="col-12 col-lg-6 tiny-break-padding">
                   <div class="git-summary-box">
                     <div class="d-flex tiny-break-padding justify-content-left align-items-center">
                       <i class="fas fa-lg fa-book"></i> &nbsp;
-                      <p class="repo-link-text">ChoiceCoin/ChoiceCoin.github.io</p>
+                      <p class="choice-font-repo-link-text">ChoiceCoin.github.io</p>
                     </div>
                     <div class="d-flex tiny-break-padding justify-content-left">
                       <p id="web-description" class="choice-font-normal-text no-padding"><!-- Populated by Javascript --></p>
@@ -327,7 +349,10 @@
                     </div>
                     <div class="d-flex justify-content-left tiny-break-padding">
                       <a href="participate.html" class="btn btn-primary me-3">
-                          View Project &nbsp; <i class="fas fa-arrow-circle-right"></i>
+                        <span>
+                          <p class="choice-font-btn-text-small text-inline">View Project &nbsp;</p>
+                          <i class="fas fa-arrow-circle-right choice-btn-icon-small"></i>
+                        </span>
                       </a>
                     </div>
                   </div>
@@ -341,7 +366,10 @@
           <div class="row">
             <div class="d-flex justify-content-left">
               <a href="participate.html" class="btn btn-primary me-3">
-                  <i class="fas fa-exclamation-circle"></i> &nbsp; Other Ways To Get Involved
+                <span>
+                  <i class="fas fa-exclamation-circle choice-btn-icon"></i> &nbsp;
+                  <p class="choice-font-btn-text text-inline">Get Involved</p>
+                </span>
               </a>
             </div>
           </div>
