@@ -204,6 +204,9 @@ FONTS
 .text-inline{
   display: inline;
 }
+.tiny-menu-fix{display: inline;}
+.lg-menu-ico{display: inline;}
+.sm-menu-ico{display: none;}
 
 
 /*
@@ -278,6 +281,9 @@ IMAGES
   .choice-font-btn-text-small{font-size: 16px;}
   .choice-btn-icon-small{font-size: 14pt;}
   .choice-font-repo-link-text{font-size: 20px;}
+  .tiny-menu-fix{display: inline;}
+  .lg-menu-ico{display: inline;}
+  .sm-menu-ico{display: none;}
 
   /* IMAGES */
   .choice-logo-img{
@@ -344,6 +350,9 @@ IMAGES
   .choice-font-btn-text-small{font-size: 16px;}
   .choice-btn-icon-small{font-size: 14pt;}
   .choice-font-repo-link-text{font-size: 20px;}
+  .tiny-menu-fix{display: inline;}
+  .lg-menu-ico{display: inline;}
+  .sm-menu-ico{display: none;}
 
   /* IMAGES */
   .choice-logo-img{
@@ -410,6 +419,9 @@ IMAGES
   .choice-font-btn-text-small{font-size: 14px;}
   .choice-btn-icon-small{font-size: 12pt;}
   .choice-font-repo-link-text{font-size: 18px;}
+  .tiny-menu-fix{display: inline;}
+  .lg-menu-ico{display: inline;}
+  .sm-menu-ico{display: none;}
 
   /* IMAGES */
   .choice-logo-img{
@@ -434,6 +446,9 @@ IMAGES
     padding-left: 140px !important;
     padding-right: 140px !important;
   }
+  .tiny-menu-fix{display: inline;}
+  .lg-menu-ico{display: inline;}
+  .sm-menu-ico{display: none;}
 }
 
 /* BEGIN MEDIA QUERY FOR MOBILE BREAKPOINT */
@@ -471,6 +486,15 @@ IMAGES
     margin: 0px !important;
   }
 
+  /* Special Column Fix */
+  .top-pad-fix{
+    padding-top: 40px !important;
+  }
+  .margin-col{
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+  }
+
   /* FONTS */
   .choice-font-index-title{font-size: 28px;}
   .choice-font-index-text{font-size: 14px;}
@@ -487,6 +511,9 @@ IMAGES
   .choice-font-btn-text-small{font-size: 12px;}
   .choice-btn-icon-small{font-size: 10pt;}
   .choice-font-repo-link-text{font-size: 16px;}
+  .tiny-menu-fix{display: inline;}
+  .lg-menu-ico{display: none;}
+  .sm-menu-ico{display: inline;}
 
   /* IMAGES */
   .choice-logo-img{
@@ -500,4 +527,14 @@ IMAGES
     margin: 8px;
   }
 
+}
+
+/* BEGIN MEDIA QUERY FOR TINY SCREEN */
+@media only screen and (max-width: 600px) {
+  .navbar{
+    max-height: none;
+  }
+  .tiny-menu-fix{display: none;}
+  .lg-menu-ico{display: none;}
+  .sm-menu-ico{display: inline;}
 }
